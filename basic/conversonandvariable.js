@@ -62,6 +62,28 @@ num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
 gameCounter++;
-console.log(gameCounter);
+// console.log(gameCounter);
 
 // link to study
+
+// *************************************************************************
+
+let carName = "audi"
+
+let anothername = carName 
+anothername = "bmw"
+
+// console.log(carName);
+// console.log(anothername);
+
+let firstuser = {
+  email: "sandeep@gmaildotcom",
+  roll: "320"
+}
+
+let secondUser = firstuser
+
+secondUser.email = "sunil@gmail.com"
+
+console.log(firstuser.email);
+console.log(secondUser.email);
