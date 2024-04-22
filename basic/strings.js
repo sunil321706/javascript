@@ -5,7 +5,6 @@ const count = 100
 
 // console.log(`this is a ${name} and this is a count ${count}`);
 
-const carName = "volvo"
-
-console.log(carName.length);
-
+const carName = " sandeep "
+const trimedname = carName.trim()
+console.log(trimedname.spi("p"));
