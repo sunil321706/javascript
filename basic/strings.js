@@ -7,4 +7,4 @@ const count = 100
 
 const carName = " sandeep "
 const trimedname = carName.trim()
-console.log(trimedname.spi("p"));
+console.log(trimedname.endsWith("p"));
