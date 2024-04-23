@@ -1,11 +1,11 @@
    let score = "sunil"
 
-//   console.log(typeof score)
-//   console.log(typeof (score));
+  // console.log(typeof score)
+  // console.log(typeof (score));
 
   let valueInNumber  = Number(score)
-//   console.log(typeof valueInNumber);
-//   console.log(valueInNumber);
+  // console.log(typeof valueInNumber);
+  // console.log(valueInNumber);
 
 
 // "33" => 33
@@ -14,8 +14,8 @@
 
 let isLoggedIn = "sunil"
 
-let booleanInLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
+// let booleanInLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanInLoggedIn);
 
 // 1 => true; 0 => false
 // "" => false
@@ -85,5 +85,9 @@ let secondUser = firstuser
 
 secondUser.email = "sunil@gmail.com"
 
-console.log(firstuser.email);
-console.log(secondUser.email);
+// console.log(firstuser.email);
+// console.log(secondUser.email);
+let x = null
+let y = 0
+
+console.log(x >= y);  //> convert null into zero
